@@ -1,3 +1,30 @@
+<p align="center">
+  <svg width="100%" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#EBAF00">
+          <animate attributeName="offset" values="0;1;0" dur="8s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="50%" stop-color="#FF94B4">
+          <animate attributeName="offset" values="0.25;0.75;0.25" dur="8s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#FF3232">
+          <animate attributeName="offset" values="1;0;1" dur="8s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+      <clipPath id="text-clip">
+        <text x="50%" y="55%" text-anchor="middle" font-size="42" font-weight="700" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif">
+          Subhadip Jana
+        </text>
+      </clipPath>
+    </defs>
+    <rect width="100%" height="140" fill="#020617" rx="24" />
+    <rect width="100%" height="140" fill="url(#grad)" clip-path="url(#text-clip)" />
+    <text x="50%" y="82%" text-anchor="middle" font-size="16" fill="#e5e7eb" letter-spacing="3" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif">
+      DESIGNER × DEVELOPER
+    </text>
+  </svg>
+</p>
 
 ## 🌐 Socials:
 [![Resume](https://img.shields.io/badge/Resume-f8dd4a)](https://tinyurl.com/subhadip-resume) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/@a063._) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/subhadip.jana.570998) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/savi.himself_09) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/subhadipjana095) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/Subhadip-Jana-110) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Budget_Hat_4120) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Subhadip53874) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:codesubhadip95@gmail.com) 
