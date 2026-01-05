@@ -1,4 +1,4 @@
-![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2FSubhadipjana95c906a.png?alt=media)
+![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2FSubhadipjana95d4b84.png?alt=media)
 
 
 ![3d-profile](assets/night-green.svg)
