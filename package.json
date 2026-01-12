@@ -1,0 +1,15 @@
+{
+  "name": "subhadipjana95",
+  "version": "1.0.0",
+  "description": "![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2FSubhadipjana95aa623.png?alt=media)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.6"
+  }
+}

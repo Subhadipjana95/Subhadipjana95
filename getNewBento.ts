@@ -1,3 +1,5 @@
+import { promises as fs } from 'fs';
+
 const apiUrl = "https://opbento.edgexhq.tech/api/bento?n=Subhadip%20Jana&g=Subhadipjana95&x=Subhadip53874&l=subhadipjana095&i=https%3A%2F%2Fres.cloudinary.com%2Fdfjuuwtr6%2Fimage%2Fupload%2Fv1764255716%2FSUbhadip_Banner_qy3fcy.png&p=subhadipjana95.github.io%2FSubhadip-Portfolio&z=aa623";
 interface BentoResponse {
   url: string;
@@ -24,5 +26,32 @@ const fetchBentoUrl = async (apiUrl: string, retries = 3): Promise<string> => {
   throw new Error("Failed to fetch after retries");
 };
 
-// @ts-ignore
-fetchBentoUrl(apiUrl);
+const updateReadme = async () => {
+  try {
+    const newUrl = await fetchBentoUrl(apiUrl);
+    console.log(`Fetched new URL: ${newUrl}`);
+
+    const readmePath = 'README.md';
+    let readmeContent = await fs.readFile(readmePath, 'utf8');
+
+    // Regex to match the OpBento image markdown
+    const regex = /!\[OpBento\]\((.*?)\)/;
+
+    if (regex.test(readmeContent)) {
+      readmeContent = readmeContent.replace(regex, `![OpBento](${newUrl})`);
+      await fs.writeFile(readmePath, readmeContent);
+      console.log('README.md updated successfully.');
+    } else {
+      console.error('OpBento image tag not found in README.md');
+      process.exit(1);
+    }
+
+  } catch (error) {
+    console.error('Failed to update README:', error);
+    process.exit(1);
+  }
+}
+
+updateReadme();
+
+//ref: 95da7e209129c7436d98c2193b95a8270c7f35f9
