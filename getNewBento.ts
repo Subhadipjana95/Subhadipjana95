@@ -3,18 +3,25 @@ interface BentoResponse {
   url: string;
 }
 
-const fetchBentoUrl = async (apiUrl: string): Promise<string> => {
-  try {
-    const response = await fetch(apiUrl);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+const fetchBentoUrl = async (apiUrl: string, retries = 3): Promise<string> => {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const response = await fetch(apiUrl);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data: BentoResponse = (await response.json()) as BentoResponse;
+      return data.url;
+    } catch (error) {
+      if (attempt === retries) {
+        console.error("Error fetching Bento URL:", error);
+        throw error;
+      }
+      // Wait 2 seconds before retrying
+      await new Promise(res => setTimeout(res, 2000));
     }
-    const data: BentoResponse = (await response.json()) as BentoResponse;
-    return data.url;
-  } catch (error) {
-    console.error("Error fetching Bento URL:", error);
-    throw error;
   }
+  throw new Error("Failed to fetch after retries");
 };
 
 // @ts-ignore
