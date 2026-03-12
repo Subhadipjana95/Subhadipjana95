@@ -1,5 +1,8 @@
-![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2FSubhadipjana956a045.png?alt=media)
+<!-- ![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2FSubhadipjana956a045.png?alt=media) -->
 
+<div align="center">
+  <img src="banner.gif" width="100%" alt="Hacker Terminal" />
+</div>
 
 ![3d-profile](profile-3d-contrib/profile-night-green.svg)
 
