@@ -1,0 +1,121 @@
+name: Check OpenBento Availability
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:  # Manual trigger for testing
+  push:
+    branches: [ main ]  # Also run on push to main
+
+jobs:
+  check-openbento:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Check OpenBento URL availability
+        id: check-url
+        run: |
+          echo "Checking OpenBento URL availability..."
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" -L "https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2FSubhadipjana956a045.png?alt=media")
+          echo "HTTP Status: $STATUS"
+          
+          if [ "$STATUS" = "200" ]; then
+            echo "OpenBento URL is available"
+            echo "openbento_available=true" >> $GITHUB_OUTPUT
+          else
+            echo "OpenBento URL is not available"
+            echo "openbento_available=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Update README based on URL availability
+        run: |
+          python3 << 'EOF'
+          import re
+          
+          # Read current README
+          with open('README.md', 'r') as f:
+              content = f.read()
+          
+          openbento_available = "${{ steps.check-url.outputs.openbento_available }}" == "true"
+          
+          if openbento_available:
+              print("OpenBento is available - showing OpenBento, hiding banner.gif and ##")
+              
+              # Show OpenBento (uncomment if commented)
+              content = re.sub(r'^<!-- (!\[OpBento\].*) -->$', r'\1', content, flags=re.MULTILINE)
+              
+              # Hide banner.gif div block
+              content = re.sub(
+                  r'<div align="center">\s*<img src="banner\.gif"[^>]*>\s*</div>',
+                  '<!-- <div align="center">\n  <img src="banner.gif" width="100%" alt="Hacker Terminal" />\n</div> -->',
+                  content,
+                  flags=re.DOTALL
+              )
+              
+              # Hide ## line (comment it out)
+              content = re.sub(r'^##\s*$', '<!-- ## -->', content, flags=re.MULTILINE)
+              
+          else:
+              print("OpenBento is not available - hiding OpenBento, showing banner.gif and ##")
+              
+              # Hide OpenBento (comment out)
+              content = re.sub(r'^(!\[OpBento\].*)$', r'<!-- \1 -->', content, flags=re.MULTILINE)
+              
+              # Show banner.gif div block (uncomment if commented)
+              content = re.sub(
+                  r'<!-- <div align="center">\s*<img src="banner\.gif"[^>]*>\s*</div> -->',
+                  '<div align="center">\n  <img src="banner.gif" width="100%" alt="Hacker Terminal" />\n</div>',
+                  content,
+                  flags=re.DOTALL
+              )
+              
+              # Show ## line (uncomment if commented)
+              content = re.sub(r'^<!-- ## -->$', '##', content, flags=re.MULTILINE)
+          
+          # Write updated content
+          with open('README.md', 'w') as f:
+              f.write(content)
+          
+          print("README.md updated successfully")
+          EOF
+          
+      - name: Check if README was modified
+        id: check-changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to README.md"
+            echo "changes_made=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in README.md"
+            echo "changes_made=true" >> $GITHUB_OUTPUT
+            echo "Changes made:"
+            git diff README.md
+          fi
+          
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.changes_made == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          
+          if [ "${{ steps.check-url.outputs.openbento_available }}" = "true" ]; then
+            git commit -m "🟢 OpenBento available - Updated README to show OpenBento"
+          else
+            git commit -m "🔴 OpenBento unavailable - Updated README to show banner.gif"
+          fi
+          
+          git push
+          
+      - name: Summary
+        run: |
+          if [ "${{ steps.check-url.outputs.openbento_available }}" = "true" ]; then
+            echo "✅ OpenBento URL is accessible - README updated to show OpenBento"
+          else
+            echo "❌ OpenBento URL is not accessible - README updated to show banner.gif"
+          fi
