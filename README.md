@@ -7,7 +7,9 @@
 <br>
 
 <img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"> -->
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="100%" height="320" alt="animated hello">
+<!-- <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="100%" height="320" alt="animated hello"> -->
+
+![OpBento](https://opbento.vercel.app/api/bento/image?g=Subhadipjana95&z=84ace)
 
 ## Socials
 [![Resume](https://shieldcn.dev/badge/Resume-E9D56A.svg?size=xs)](/Subhadip%20Jana%20Resume%20(main).pdf) 
