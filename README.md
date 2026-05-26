@@ -1,5 +1,3 @@
-<!-- ![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2FSubhadipjana956a045.png?alt=media) -->
-
 <!-- <div align="center">
   <img src="banner.gif" width="100%" alt="Hacker Terminal" />
 </div>
@@ -11,13 +9,16 @@
 
 ![OpBento](https://opbento.vercel.app/api/bento/image?g=Subhadipjana95&z=84ace)
 
+<div style="padding: 0 10px 0 32px;">
+
 ## Socials
-[![Resume](https://shieldcn.dev/badge/Resume-E9D56A.svg?size=xs)](/Subhadip%20Jana%20Resume%20(main).pdf) 
-[![LinkedIn](https://shieldcn.dev/badge/LinkedIn-2D64BC.svg?size=xs)](https://linkedin.com/in/subhadipjana095) 
-[![X](https://shieldcn.dev/badge/Twitter-1C1C1C.svg?logo=x&size=xs)](https://x.com/Subhadip53874) 
-[![email](https://shieldcn.dev/badge/Email-D8513F.svg?logo=gmail&size=xs)](mailto:codesubhadip95@gmail.com) 
-[![Discord](https://shieldcn.dev/badge/Discord-5B65EA.svg?logo=discord&size=xs)](https://discord.gg/@a063._) 
-[![Facebook](https://shieldcn.dev/badge/FaceBook-2C64F6.svg?logo=facebook&size=xs)](https://facebook.com/subhadip.jana.570998) 
+
+[![Resume](https://shieldcn.dev/badge/Resume-E9D56A.svg?size=xs)](</Subhadip%20Jana%20Resume%20(main).pdf>)
+[![LinkedIn](https://shieldcn.dev/badge/LinkedIn-2D64BC.svg?size=xs)](https://linkedin.com/in/subhadipjana095)
+[![X](https://shieldcn.dev/badge/Twitter-1C1C1C.svg?logo=x&size=xs)](https://x.com/Subhadip53874)
+[![email](https://shieldcn.dev/badge/Email-D8513F.svg?logo=gmail&size=xs)](mailto:codesubhadip95@gmail.com)
+[![Discord](https://shieldcn.dev/badge/Discord-5B65EA.svg?logo=discord&size=xs)](https://discord.gg/@a063._)
+[![Facebook](https://shieldcn.dev/badge/FaceBook-2C64F6.svg?logo=facebook&size=xs)](https://facebook.com/subhadip.jana.570998)
 [![Instagram](https://shieldcn.dev/badge/Instagram-E93485.svg?logo=instagram&size=xs)](https://www.instagram.com/soulsofsavi/)
 
 ## Tech Stack
@@ -41,9 +42,11 @@
 ![Turborepo](https://shieldcn.dev/badge/Turborepo-FF1E56.svg?logo=turborepo&logoColor=fff&variant=branded&size=xs)
 ![npm](https://shieldcn.dev/badge/npm-CB3837.svg?logo=npm&logoColor=fff&variant=branded&size=xs)
 ![pnpm](https://shieldcn.dev/badge/pnpm-F69220.svg?logo=pnpm&logoColor=000&variant=branded&size=xs)
-![Vercel](https://shieldcn.dev/badge/Vercel-1C1C1C.svg?logo=vercel&logoColor=fff&size=xs) 
+![Vercel](https://shieldcn.dev/badge/Vercel-1C1C1C.svg?logo=vercel&logoColor=fff&size=xs)
 ![Vite](https://shieldcn.dev/badge/Vite-9856FF.svg?logo=vite&logoColor=FFF&size=xs)
-![Figma](https://shieldcn.dev/badge/Figma-5FCC89.svg?logo=figma&logoColor=000&size=xs) 
+![Figma](https://shieldcn.dev/badge/Figma-5FCC89.svg?logo=figma&logoColor=000&size=xs)
+
+</div>
 
 <!-- ![3d-profile](profile-3d-contrib/profile-night-green.svg) -->
 <!-- <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"> -->
