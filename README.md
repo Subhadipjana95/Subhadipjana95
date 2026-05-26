@@ -11,9 +11,37 @@
 ![3d-profile](profile-3d-contrib/profile-night-green.svg)
 
 ## Socials
-[![Resume](https://img.shields.io/badge/Resume-f8dd4a)](https://tinyurl.com/subhadip-resume) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/@a063._) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/subhadip.jana.570998) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/soulsofsavi/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/subhadipjana095) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/Subhadip-Jana-110) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Budget_Hat_4120) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Subhadip53874) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:codesubhadip95@gmail.com) 
+[![Resume](https://shieldcn.dev/badge/Resume-E9D56A.svg?size=xs)](/Subhadip%20Jana%20Resume%20(main).pdf) 
+[![LinkedIn](https://shieldcn.dev/badge/LinkedIn-2D64BC.svg?size=xs)](https://linkedin.com/in/subhadipjana095) 
+[![X](https://shieldcn.dev/badge/Twitter-1C1C1C.svg?logo=x&size=xs)](https://x.com/Subhadip53874) 
+[![email](https://shieldcn.dev/badge/Email-D8513F.svg?logo=gmail&size=xs)](mailto:codesubhadip95@gmail.com) 
+[![Discord](https://shieldcn.dev/badge/Discord-5B65EA.svg?logo=discord&size=xs)](https://discord.gg/@a063._) 
+[![Facebook](https://shieldcn.dev/badge/FaceBook-2C64F6.svg?logo=facebook&size=xs)](https://facebook.com/subhadip.jana.570998) 
+[![Instagram](https://shieldcn.dev/badge/Instagram-E93485.svg?logo=instagram&size=xs)](https://www.instagram.com/soulsofsavi/)
 
 ## Tech Stack
-![Creatie](https://tinyurl.com/yt8zc8ap) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=flat&logo=framer&logoColor=blue) ![Three js](https://img.shields.io/badge/threejs-black?style=flat&logo=three.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=flat&logo=greensock&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=flat) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![Appwrite](https://img.shields.io/badge/Appwrite-%23FD366E.svg?style=flat&logo=appwrite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=flat&logo=dribbble&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat&logo=firefox&logoColor=#FF7139) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=flat&logo=tor-project&logoColor=white)
+
+![React](https://shieldcn.dev/badge/React-61DAFB.svg?logo=react&logoColor=000&variant=branded&size=xs)
+![Next.js](https://shieldcn.dev/badge/Next.js-000000.svg?logo=nextdotjs&logoColor=fff&variant=branded&size=xs)
+![HTML5](https://shieldcn.dev/badge/HTML5-D25935.svg?logo=html5&size=xs)
+![Tailwind CSS](https://shieldcn.dev/badge/Tailwind%20CSS-06B6D4.svg?logo=tailwindcss&logoColor=fff&variant=branded&size=xs)
+![Motion/React](https://shieldcn.dev/badge/Motion/React-FDF353.svg?logo=framer&logoColor=000&size=xs)
+![CSS3](https://shieldcn.dev/badge/CSS3-5F3694.svg?logo=css&size=xs)
+![MongoDB](https://shieldcn.dev/badge/MongoDB-47A248.svg?logo=mongodb&logoColor=fff&variant=branded&size=xs)
+![MySQL](https://shieldcn.dev/badge/MySQL-4479A1.svg?logo=mysql&logoColor=fff&variant=branded&size=xs)
+![Node.js](https://shieldcn.dev/badge/Node.js-76B156.svg?logo=nodedotjs&logoColor=fff&size=xs)
+![Express](https://shieldcn.dev/badge/Express-1C1C1C.svg?logo=express&logoColor=fff&size=xs)
+![FastAPI](https://shieldcn.dev/badge/FastAPI-009688.svg?logo=fastapi&logoColor=fff&variant=branded&size=xs)
+![Java](https://shieldcn.dev/badge/Java-ED8B00.svg?logo=ri%3AFaJava&logoColor=fafafa&size=xs)
+![TypeScript](https://shieldcn.dev/badge/TypeScript-3178C6.svg?logo=typescript&logoColor=fff&variant=branded&size=xs)
+![JavaScript](https://shieldcn.dev/badge/JavaScript-ECDC67.svg?logo=javascript&logoColor=000&size=xs)
+![Git](https://shieldcn.dev/badge/Git-CD5640.svg?logo=git&logoColor=fff&variant=branded&size=xs)
+![GitHub](https://shieldcn.dev/badge/GitHub-DEDEDE.svg?logo=github&logoColor=000&size=xs)
+![Turborepo](https://shieldcn.dev/badge/Turborepo-FF1E56.svg?logo=turborepo&logoColor=fff&variant=branded&size=xs)
+![npm](https://shieldcn.dev/badge/npm-CB3837.svg?logo=npm&logoColor=fff&variant=branded&size=xs)
+![pnpm](https://shieldcn.dev/badge/pnpm-F69220.svg?logo=pnpm&logoColor=000&variant=branded&size=xs)
+![Vercel](https://shieldcn.dev/badge/Vercel-1C1C1C.svg?logo=vercel&logoColor=fff&size=xs) 
+![Vite](https://shieldcn.dev/badge/Vite-9856FF.svg?logo=vite&logoColor=FFF&size=xs)
+![Figma](https://shieldcn.dev/badge/Figma-5FCC89.svg?logo=figma&logoColor=000&size=xs) 
 <!-- <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" /> -->
