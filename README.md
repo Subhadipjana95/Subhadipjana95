@@ -13,7 +13,7 @@
 
 ## Socials
 
-[![Resume](https://shieldcn.dev/badge/Resume-E9D56A.svg?size=xs)](</Subhadip%20Jana%20Resume%20(main).pdf>)
+[![Resume](https://shieldcn.dev/badge/Resume-E9D56A.svg?size=xs)](https://drive.google.com/file/d/1tCUnJZW_T9tyxdvcqdSa7lPsDR6pZKuo/view?usp=sharing)
 [![LinkedIn](https://shieldcn.dev/badge/LinkedIn-2D64BC.svg?size=xs)](https://linkedin.com/in/subhadipjana095)
 [![X](https://shieldcn.dev/badge/Twitter-1C1C1C.svg?logo=x&size=xs)](https://x.com/Subhadip53874)
 [![email](https://shieldcn.dev/badge/Email-D8513F.svg?logo=gmail&size=xs)](mailto:codesubhadip95@gmail.com)
