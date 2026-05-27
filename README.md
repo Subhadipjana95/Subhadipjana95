@@ -24,10 +24,11 @@
 ## Tech Stack
 
 ![React](https://shieldcn.dev/badge/React-61DAFB.svg?logo=react&logoColor=000&variant=branded&size=xs)
-![Next.js](https://shieldcn.dev/badge/Next.js-000000.svg?logo=nextdotjs&logoColor=fff&variant=branded&size=xs)
+![Next.js](https://shieldcn.dev/badge/Next.js-FAFAFA.svg?logo=nextdotjs&logoColor=000&variant=branded&size=xs)
 ![HTML5](https://shieldcn.dev/badge/HTML5-D25935.svg?logo=html5&size=xs)
 ![Tailwind CSS](https://shieldcn.dev/badge/Tailwind%20CSS-06B6D4.svg?logo=tailwindcss&logoColor=fff&variant=branded&size=xs)
 ![Motion/React](https://shieldcn.dev/badge/Motion/React-FDF353.svg?logo=framer&logoColor=000&size=xs)
+![Shadcn UI](https://shieldcn.dev/badge/Shadcn/ui-0F0F0F.svg?logo=shadcnui&logoColor=FFF&size=xs)
 ![CSS3](https://shieldcn.dev/badge/CSS3-5F3694.svg?logo=css&size=xs)
 ![MongoDB](https://shieldcn.dev/badge/MongoDB-47A248.svg?logo=mongodb&logoColor=fff&variant=branded&size=xs)
 ![MySQL](https://shieldcn.dev/badge/MySQL-4479A1.svg?logo=mysql&logoColor=fff&variant=branded&size=xs)
