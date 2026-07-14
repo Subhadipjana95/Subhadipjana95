@@ -34,7 +34,7 @@
 ![MySQL](https://shieldcn.dev/badge/MySQL-4479A1.svg?logo=mysql&logoColor=fff&variant=branded&size=xs)
 ![Node.js](https://shieldcn.dev/badge/Node.js-76B156.svg?logo=nodedotjs&logoColor=fff&size=xs)
 ![Express](https://shieldcn.dev/badge/Express-1C1C1C.svg?logo=express&logoColor=fff&size=xs)
-![FastAPI](https://shieldcn.dev/badge/FastAPI-009688.svg?logo=fastapi&logoColor=fff&variant=branded&size=xs)
+![RESTAPI](https://shieldcn.dev/badge/RESTAPI-4FADDB.svg?logo=ri%3ATbApi&logoColor=000&valueColor=000&size=xs)
 ![Postman](https://shieldcn.dev/badge/Postman-ED7546.svg?logo=postman&logoColor=fff&size=xs)
 ![Java](https://shieldcn.dev/badge/Java-ED8B00.svg?logo=ri%3AFaJava&logoColor=fafafa&size=xs)
 ![Cursor](https://shieldcn.dev/badge/Cursor-0F0F0F.svg?logo=cursor&logoColor=fff&size=xs)
